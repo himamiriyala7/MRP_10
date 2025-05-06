@@ -3,7 +3,6 @@ import pandas as pd
 import streamlit as st
 import plotly.express as px
 from datetime import datetime
-from sklearn.ensemble import RandomForestRegressor
 from statsmodels.tsa.arima.model import ARIMA
 from sklearn.metrics import mean_absolute_error
 from sklearn.metrics import mean_squared_error
